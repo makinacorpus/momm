@@ -6,9 +6,9 @@ use Momm\Core\Converter\ConverterInterface;
 
 class TimestampConverter implements ConverterInterface
 {
-    const TS_FORMAT = 'Y-m-d H:i:s.uP';
+    const TS_FORMAT = 'Y-m-d H:i:s'; // 'Y-m-d H:i:s.uP';
     const TS_FORMAT_DATE = 'Y-m-d';
-    const TS_FORMAT_TIME = 'H:i:s.uP';
+    const TS_FORMAT_TIME = 'H:i:s'; // 'H:i:s.uP';
     const TS_FORMAT_TIME_INT = 'H:I:S';
 
     protected function formatDate($value)
